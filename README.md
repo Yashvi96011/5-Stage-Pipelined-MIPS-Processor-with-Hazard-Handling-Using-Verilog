@@ -1,1 +1,1 @@
-# 5-Stage-Pipelined-MIPS-Processor-with-Hazard-Handling-Using-Verilog
+# 5-Stage-Pipelined-MIPS-Processor-with-Hazard-Handling
