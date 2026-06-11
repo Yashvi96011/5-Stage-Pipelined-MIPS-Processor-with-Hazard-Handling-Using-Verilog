@@ -32,6 +32,8 @@ AND
 OR
 NOR
 SLT
+
+
 2.I-Type Instructions
 ADDI
 LW
