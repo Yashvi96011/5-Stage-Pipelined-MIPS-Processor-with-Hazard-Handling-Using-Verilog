@@ -2,7 +2,7 @@
 
 A complete 32-bit MIPS Pipeline Processor implemented in Verilog HDL with support for hazard detection, data forwarding, pipeline registers, and basic MIPS instructions. This project demonstrates the architecture and operation of a classic 5-stage pipelined CPU.
 
-###` Features:`
+### `Features:`
 1.32-bit MIPS Architecture
 2.Five Pipeline Stages:
 Instruction Fetch (IF)
@@ -62,28 +62,5 @@ Pipeline flushing
 ### `Pipeline Registers:`
 IF → IF/ID → ID → ID/EX → EX → EX/MEM → MEM → MEM/WB → WB
 
-### `Project Structure:`
-├── dff_async_clear.v
-├── reg32.v
-├── PC.v
-├── InstructionMemory.v
-├── RegisterFile.v
-├── DataMemory.v
-├── Control.v
-├── ALUControl.v
-├── ALU.v
-├── SignExtend.v
-├── Adder.v
-├── ShiftLeft2.v
-├── MUX2.v
-├── MUX2_5bit.v
-├── MUX3.v
-├── HazardDetectionUnit.v
-├── ForwardingUnit.v
-├── IF_ID.v
-├── ID_EX.v
-├── EX_MEM.v
-├── MEM_WB.v
-├── MIPS_Pipeline.v
-├── tb_MIPS_Pipeline.v
-└── README.md
+
+
