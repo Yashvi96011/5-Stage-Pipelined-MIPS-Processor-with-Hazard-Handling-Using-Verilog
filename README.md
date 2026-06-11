@@ -4,18 +4,17 @@ A complete 32-bit MIPS Pipeline Processor implemented in Verilog HDL with suppor
 
 ### `Features:`
 1.32-bit MIPS Architecture
-
 2.Five Pipeline Stages:
-Instruction Fetch (IF)
-Instruction Decode (ID)
-Execute (EX)
-Memory Access (MEM)
-Write Back (WB)
+Instruction Fetch (IF),
+Instruction Decode (ID),
+Execute (EX),
+Memory Access (MEM),
+Write Back (WB).
 3.Pipeline Registers:
-IF/ID
-ID/EX
-EX/MEM
-MEM/WB
+IF/ID,
+ID/EX,
+EX/MEM,
+MEM/WB,
 
 4.Hazard Detection Unit
 5.Forwarding Unit
